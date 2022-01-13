@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+#contacto, #inicio{
+    background-image: url(../imagenes/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos, #sobre-mi{
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h2{
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px;
+    color: #fff;
+}
+#proyectos img{
+    height: 210px;
+}
+#sobre-mi .card-idioma{
+    background-color: #370a6d;
+    border-radius: 15px;
+}
+#sobre-mi h2{
+    font-size: 24px;
+    padding: 5px;
+    margin: 0px;
+    color: #fff;
+}
+#sobre-mi h3{
+    font-size: 14px;
+}
+#sobre-mi .card{
+    height: 182px;
+    width: 200px;
+}
+#tecnologias{
+    background-color: #E20000;
+    background-size: 100%;
+}
+#contacto p, #sobre-mi p{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+#proyectos p{
+    font-size: 14px;
+    color: #6a6a6a;
+}
+#contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+    color: white;
+    font-weight: 100;
+}
+#contacto footer .fa-github, #inicio footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#proyectos footer, footer a, #sobre-mi footer{
+    color:#E20000;
+    font-weight: 100;
+}
+#proyectos footer .fa-github, #sobre-mi footer .fa-github{
+    font-size: 30px;
+    color: #E20000;
+}
+#proyectos footer .fa-linkedin-in, #sobre-mi footer .fa-linkedin-in{
+    color: white;
+    background-color: #E20000;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#inicio .cohete{
+    height: 410px;
+}
+#inicio p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+#inicio .p1{
+    padding: 2px;
+}
+#proyectos .link-rojo a{
+    color: #E20000;
+    text-decoration: none;
+}
+#sobre-mi main a{
+    text-decoration: none;
+}
+#proyecto-card{
+    background-color: #E20000;
+}
+#idiomas{
+    background-color: #eee;
+}  
+#formacion h2, #cursos h2{
+    color: #E20000 !important;
+    font-size: 24px;
+    font-weight: 400;
+}
+#formacion h3, #cursos h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#formacion h4, #cursos h4{
+    font-size: 17px;
+    color: #E20000;
+}
+#formacion h5, #cursos h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#contacto .btnBlanco{
+    border: #ced4da;
+    border-radius: 15px;
+    background-color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#contacto .btnBlanco:hover, #inicio .btnBlanco:hover{ 
+    background-color: #370a6d;
+    color: white;
+    border: #370a6d;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+textarea{
+    resize: vertical;
+    height: 150px;
+}
+nav .fa-bars{
+    color: #E20000;
+}
+nav .navbar-toggler{
+    border: #E20000 solid 1px;
+}
+footer .bloque-whatsapp a{
+    color: white;
+}
+.idioma-card{
+    border-radius: 15px;
+}
+.logo{
+    filter: grayscale(1);
+}
+.logo:hover{
+    filter: none;
+}
+.active{
+    border: #E20000 solid 1px;
+    border-radius: 20px;
+}
+.nav-link{
+    color: #282828;
+}
+.nav-link:hover{
+    color: black;
+}
+.form-control{
+    border-radius: 15px;
+    width: 100%;
+}
+.fa-star{
+    color: white;
+    font-size: 80px;
+}  
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-comment-alt{
+    color: white;
+    font-size: 80px;
+}
+.btn{
+    border: white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+.bloque-whatsapp{
+    position:fixed;
+    bottom: 0px;
+    right: 100px;
+    background-color: #370a6d;
+    font-size: 30px;
+    padding: 8px 16px 15px 16px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 15px;
+    border-color: #E20000;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+    color: #fff;
+    border-color: #370a6d;
+}
+.color-gradiente{
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+@media (max-width: 750px){
+    #inicio, #contacto{
+        background-image: url(../imagenes/fondo-proyectos.png);
+    }
+    #inicio footer .fa-github, #contacto footer .fa-github{
+        color: #E20000;
+    }
+    #inicio footer .fa-linkedin-in, #contacto footer .fa-linkedin-in{
+        color: white;
+        background-color: #E20000;
+    } 
+    footer .bloque-whatsapp a{
+        color: white !important;
+    }
+    #contacto footer, #contacto footer a, #inicio footer, #inicio footer a{
+        color: #E20000;
+    } 
+    #inicio p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+    .bloque-whatsapp{
+        right: 15px;
+    }
+}
+
