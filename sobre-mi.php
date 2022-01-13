@@ -61,7 +61,7 @@
                                 digital. Capaz de trabajar en equipo o sola, con una alta autonomía, proactividad y
                                 ganas de
                                 aprender.</p>
-                            <a href="../portfolio/contacto.html" class="btn-rojo py-2 px-3">Enviar mensaje</a>
+                            <a href="../portfolio/contacto.php" class="btn-rojo py-2 px-3">Enviar mensaje</a>
                         </div>
                     </div>
                 </div>
