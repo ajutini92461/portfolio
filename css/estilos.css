@@ -26,7 +26,7 @@ body{
     background-color: #370a6d;
     border-radius: 15px;
 }
-#sobre-mi h2{
+#tecnologias h2{
     font-size: 24px;
     padding: 5px;
     margin: 0px;
@@ -116,13 +116,17 @@ body{
 }
 #idiomas{
     background-color: #eee;
-}  
+} 
+#expe h4{
+    font-size: 14px;
+    color: #370a6d;
+} 
 #formacion h2, #cursos h2{
     color: #E20000 !important;
     font-size: 24px;
     font-weight: 400;
 }
-#formacion h3, #cursos h3{
+#formacion h3, #cursos h3, #expe h3{
     color: #6A6A6A;
     font-size: 18px;
     font-weight: 600;
@@ -131,7 +135,7 @@ body{
     font-size: 17px;
     color: #E20000;
 }
-#formacion h5, #cursos h5{
+#formacion h5, #cursos h5, #expe h5{
     color: #6A6A6A;
     font-size: 14px;
 }
@@ -157,6 +161,13 @@ body{
     background-color: #370a6d;
     color: white;
     border: #370a6d;
+}
+#expe h2{
+    color: #370a6d !important;
+}
+#expe p{
+    color: #6a6a6a;
+    font-size: 16px;
 }
 h1{
     color: #E20000;

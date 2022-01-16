@@ -140,6 +140,28 @@
                 </div>
             </div>
         </section>
+        <section id="expe" class="container">
+            <div class="row py-3">
+                <div class="col-12">
+                    <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+                </div>
+            </div>
+            <div class="row shadow rounded p-1">
+                <div class="col-12">
+                    <div class="row py-3">
+                        <div class="col-sm-2 col-12 text-center">
+                            <img width="150" class="m-auto p-auto logo" src="../portfolio/imagenes/no job.png" alt="">
+                        </div>
+                        <div class="col-sm-10 col-12 pt-3">
+                            <h3>Texto de relleno</h3>
+                            <h4>Texto de relleno</h4>
+                            <h5>xxxx - xxxx</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, nisi commodi aliquam voluptates sed tenetur facilis incidunt doloribus. Amet consequatur fugiat sed molestias quo laudantium dicta similique pariatur, modi labore?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="formacion" class="container mt-3">
             <div class="row py-3">
                 <div class="col-12">
