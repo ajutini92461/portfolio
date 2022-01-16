@@ -164,6 +164,8 @@ body{
 }
 #expe h2{
     color: #370a6d !important;
+    font-size: 24px;
+    font-weight: 400;
 }
 #expe p{
     color: #6a6a6a;
