@@ -142,7 +142,7 @@
         </section>
         <section id="expe" class="container">
             <div class="row py-3">
-                <div class="col-12 pb-3 pt-5">
+                <div class="col-12 pb-3 pt-4">
                     <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
                 </div>
             </div>
