@@ -1,3 +1,6 @@
+<?php
+    $pg = "sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -13,38 +16,7 @@
 </head>
 
 <body id="sobre-mi">
-    <header class="container">
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid px-0">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto pb-3 mb-md-0 pt-2">
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item pe-3">
-                            <a class="nav-link active px-sm-4 px-3 py-1" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <a href class="btn btn-rojo">
-                            Descargar mi CV
-                            <i class="fas fa-download"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once("header.php");?>
     <main>
         <div class="container">
             <div class="row">
@@ -247,13 +219,13 @@
             <div class="container mt-5">
                 <div class="row py-5">
                     <div class="col-sm-6 col-12">
-                        <div class="row shadow p-0 bg-white m-2 idioma-card">
+                        <div class="row shadow p-0 bg-white m-sm-2 m-0 idioma-card">
                             <div class="col-4 card text-center card-idioma">
                                 <i class="fas fa-comment-alt m-auto"></i>
                             </div>
                             <div class="col-8 m-auto p-auto ps-sm-5 ps-0 pb-sm-0 pb-2">
-                                <h2 class="ps-0">IDIOMAS</h2>
-                                <ul class="mb-0">
+                                <h2 class="ps-0 ms-sm-0 ms-2">IDIOMAS</h2>
+                                <ul class="mb-0 ms-sm-0 ms-2">
                                     <li>Español - Nativo</li>
                                     <li>Inglés - Advance C1</li>
                                     <li>Francés - Intermédiaire B1</li>
@@ -263,14 +235,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12">
-                        <div class="row shadow p-0 bg-white m-2 idioma-card">
+                    <div class="col-sm-6 col-12 mt-sm-0 mt-3">
+                        <div class="row shadow p-0 bg-white m-sm-2 m-0 idioma-card">
                             <div class="col-4 card text-center card-idioma">
                                 <i class="fas fa-star m-auto"></i>
                             </div>
-                            <div class="col-8 m-sm-auto p-auto ps-sm-5 ps-0 pb-sm-0 pb-5 mt-1 ms-5">
-                                <h2 class="ps-0">HOBBIES</h2>
-                                <ul>
+                            <div class="col-8 m-auto p-auto ps-sm-5 ps-0 pb-sm-0 pb-2">
+                                <h2 class="ps-0 ms-sm-0 ms-2">HOBBIES</h2>
+                                <ul class="mb-0 ms-sm-0 ms-2">
                                     <li>Pintura</li>
                                     <li>Voleibol</li>
                                 </ul>
@@ -281,27 +253,7 @@
             </div>
         </section>
     </main>
-    <footer class="container mx-auto">
-        <div class="row my-5">
-            <div class="col-sm-3 col-12 ps-sm-3 py-sm-3 mx-sm-0 text-center">
-                <a href="https://github.com/ajutini92461" target="_blank" title="github"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-sm-3 col-12 px-sm-0 py-sm-3 mx-sm-0 text-center">
-                Sponsor
-                <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-            </div>
-            <div class="col-sm-3 col-12 px-sm-0 py-sm-3 text-center">
-                <a href="mailto:anmaria.2400@gmail.com">anmaria.2400@gmail.com</a>
-            </div>
-        </div>
-        <div class="bloque-whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=573183890883" target="_blank"
-                title="Enviar mensaje directo Whatsapp"><i class="fab fa-whatsapp"></i></a>
-        </div>
-    </footer>
+    <?php include_once("footer.php");?>
 </body>
 <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 

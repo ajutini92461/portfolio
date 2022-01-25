@@ -290,5 +290,13 @@ footer .bloque-whatsapp a{
     .bloque-whatsapp{
         right: 15px;
     }
+    #idiomas .card{
+        height: 182px;
+        width: 120px;
+    }
+    .fa-comment-alt{
+        color: white;
+        font-size: 70px;
+    }
 }
 
